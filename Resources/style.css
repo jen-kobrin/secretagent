@@ -1,0 +1,151 @@
+html,
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  color: white;
+  margin: 0;
+  background-color: white;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+h4 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.logo {
+  background-color: black;
+  padding-bottom: .66rem;
+  padding-top: .66rem;
+  padding-left: 3rem;
+  padding-right: 1rem;
+  display:flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 1.5rem;
+  padding-right: .5rem;
+}
+
+.main {
+  height: 25rem;
+  background-image: url('moto.jpeg');
+  background-size: cover;
+}
+
+.headline {
+  width: 23rem;
+  height: auto;
+  background-color: black;
+  position: relative;
+  top: 9em;
+}
+
+.headline h4 {
+  padding-left: 3rem;
+  padding-top: 2rem;
+  padding-bottom: .25rem;
+}
+.headline h1 {
+  padding-left: 3rem;
+  padding-bottom: 2rem;
+}
+
+.menu {
+  background-color: firebrick;
+  color: White;
+  height: 2.5rem;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding: 1rem;
+  color: white;
+}
+
+.products {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.product {
+  border: 4px solid black;
+  margin-top: 3rem;
+  height: 15rem;
+  width: 30%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.product img {
+  height: 6em;
+  width: 60%;
+  padding: 3em 0;
+}
+
+.product p {
+  display: block;
+  background-color: black;
+  color: white;
+  height: 3rem;
+  width: 100%;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.infos {
+  width: 35%;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+.infos span {
+  color: black;
+}
+
+.infos .location {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  height: 3rem;
+  text-align: center;
+  padding-top: 1rem;
+  display: block;
+}
+
+footer {
+  height: 5rem;
+  background-color: black;
+  color: white;
+  text-align: left;
+}
+footer p {
+  padding-top: 2rem;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
